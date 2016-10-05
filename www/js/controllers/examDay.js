@@ -135,7 +135,6 @@ frmControllers.controller('FRMExamDayCtrl', ['$scope','$timeout','$location','ex
       catch(err) {
         alert("Excpetion: " + err.message);
       }
-
     }
 
     $scope.tabToItem = function(item) {
